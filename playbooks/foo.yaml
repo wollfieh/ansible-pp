@@ -2,5 +2,11 @@
 - name: Include foo.yml from wollfieh.pupspiraten collection
   hosts: localhost
   gather_facts: no
+  tasks:
+    - name: init
+      file:
+        path: /tmp/ansible_ran
+        state: touch
+      
   roles:
-    - role1
+    - wollfieh.pupspiraten.role1

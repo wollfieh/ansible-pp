@@ -1,3 +1,6 @@
-#SPDX-License-Identifier: MIT-0
 ---
-# tasks file for role1
+# roles/role1/tasks/main.yml
+
+- name: Debug hello world
+  debug:
+    msg: "hello world 2 "
