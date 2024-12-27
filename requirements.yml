@@ -3,3 +3,8 @@ collections:
 - name: wollfieh.pupspiraten
   source: git@github.com:wollfieh/ansible-pp.git
   type: git
+
+# this works too, cmdline
+# see https://github.com/ansible/ansible/pull/69154
+# ansible-galaxy collection install git@github.com:wollfieh/ansible-pp.git
+
