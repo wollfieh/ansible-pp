@@ -5,7 +5,7 @@
   tasks:
     - name: init
       file:
-        path: /tmp/ansible_ran
+        path: /tmp/ansible_ran_from_cloud_init
         state: touch
       
   roles:
