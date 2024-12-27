@@ -1,0 +1,5 @@
+
+collections:
+- name: wollfieh.pupspiraten
+  source: git@github.com:wollfieh/ansible-pp.git
+  type: git
