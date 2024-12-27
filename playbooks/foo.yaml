@@ -1,0 +1,6 @@
+---
+- name: Include foo.yml from wollfieh.pupspiraten collection
+  hosts: localhost
+  gather_facts: no
+  roles:
+    - role1
